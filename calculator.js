@@ -8,7 +8,7 @@ function subtract (a,b) {
 }  
 // sum array
 function sum (array) {
- return array.reduce((a, b) => a+b, 0);  //zero != type error - a+ b for each element (a, b // all elements in array 
+ return array.reduce((a, b) => a+b, 0);  //zero to avoid error if no values - a+ b for each element (a, b // all elements in array 
                                             // to sum for each ;
 }
 //raise a to the b power 
